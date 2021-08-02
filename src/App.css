@@ -7,6 +7,7 @@ body {
 }
 
 header {
+  color: white;
   text-align: center;
   height: 5vh;
   background: #39516d;
@@ -62,15 +63,16 @@ header > img {
 }
 
 .meme-form {
-  width: 90%;
   margin: 20px auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  justify-items: center;
 }
 
 .meme-form > input {
+  text-align: center;
   font-family: VT323, monospace;
-  width: 45%;
+  width: 50%;
+  margin: 5px;
   height: 40px;
 }
 
